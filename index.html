@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color: #F5F5F5;">
     <nav class="navbar navbar-default navbar-static-top" style="background-color: blueviolet;">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -75,90 +76,90 @@
                     </li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </nav>
-    <div class="text-center">
-    <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="images/Server.jpg" alt="Server" style="width:100%; height:400px">
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h2 style="color: black; text-shadow: 1px 1px white;">BSc (Hons) Computing and Information Systems</h2>
-            </div>
-      
-            <div class="item">
-              <img src="images/PC.jpg" alt="PC" style="width:100%; height:400px">
-            </div>
-      
-            <div class="item">
-              <img src="images/Robots.jpg" alt="Robots" style="width:100%; height:400px">
-            </div>
-          </div>
-
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div></br>
     <div class="container">
         <div class="row">
+            <div class="col-sm-9">
+            </br>
+                <div class="text-center">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">            
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/Server.jpg" alt="Server" style="width:100%; height:400px">
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 style="color: yellow; text-shadow: 3px 2px blueviolet;">BSc (Hons) Computing and Information Systems</h2>
+                            </div>      
+                            <div class="item">
+                            <img src="images/PC.jpg" alt="PC" style="width:100%; height:400px">
+                            </div>      
+                            <div class="item">
+                                <img src="images/Robots.jpg" alt="Robots" style="width:100%; height:400px">
+                            </div>
+                        </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div></br>
             <div role="tabpanel">
                 <div class="col-sm-3">
-                    <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
-                        <li role="presentation" class="brand-nav active"><a href="#KeyFacts" aria-controls="tab1" role="tab" data-toggle="tab">Key Facts</a></li>
-                        <li role="presentation" class="brand-nav"><a href="#AboutThisCourse" aria-controls="tab1" role="tab" data-toggle="tab">About This Course</a></li>
-                        <li role="presentation" class="brand-nav"><a href="#EntryRequirements" aria-controls="tab2" role="tab" data-toggle="tab">Entry Requirements</a></li>
-                        <li role="presentation" class="brand-nav"><a href="#WhatYoullStudy" aria-controls="tab3" role="tab" data-toggle="tab">What You'll Study</a></li>
-                        <li role="presentation" class="brand-nav"><a href="#HowYoullStudy" aria-controls="tab4" role="tab" data-toggle="tab">How You'll Study</a></li>
-                        <li role="presentation" class="brand-nav"><a href="#HowYoullBeAssessed" aria-controls="tab5" role="tab" data-toggle="tab">How You'll Be Assessed</a></li>
-                        <li role="presentation" class="brand-nav"><a href="#WorkExperience" aria-controls="tab6" role="tab" data-toggle="tab">Work Experience</a></li>
-                        <li role="presentation" class="brand-nav"><a href="#FutureExperienceForGraduates" aria-controls="tab7" role="tab" data-toggle="tab">Future Experience For Graduates</a></li>
-                        <li role="presentation" class="brand-nav"><a href="#YourCourseLeader" aria-controls="tab8" role="tab" data-toggle="tab">Your Course Leader</a></li>
-                        <li role="presentation" class="brand-nav"><a href="#HowToApply" aria-controls="tab9" role="tab" data-toggle="tab">How To Apply</a></li>
+                    <ul class="nav nav-pills brand-pills nav-stacked info" role="tablist" style="background-color: white;">
+                        <li role="presentation" class="brand-nav active" style="border-top-style: solid; border-bottom-style: solid; border-width: 0.1em; border-color:#E0E0E0">
+                            <a href="#AboutThisCourse" aria-controls="tab1" role="tab" data-toggle="tab">About This Course</a>
+                        </li>
+                        <li role="presentation" class="brand-nav" style="border-top-style: solid; border-bottom-style: solid; border-width: 0.1em; border-color:#E0E0E0">
+                            <a href="#EntryRequirements" aria-controls="tab2" role="tab" data-toggle="tab">Entry Requirements</a>
+                        </li>
+                        <li role="presentation" class="brand-nav" style="border-top-style: solid; border-bottom-style: solid; border-width: 0.1em; border-color:#E0E0E0">
+                            <a href="#WhatYoullStudy" aria-controls="tab3" role="tab" data-toggle="tab">What You'll Study</a>
+                        </li>
+                        <li role="presentation" class="brand-nav" style="border-top-style: solid; border-bottom-style: solid; border-width: 0.1em; border-color:#E0E0E0">
+                            <a href="#HowYoullStudy" aria-controls="tab4" role="tab" data-toggle="tab">How You'll Study</a>
+                        </li>
+                        <li role="presentation" class="brand-nav" style="border-top-style: solid; border-bottom-style: solid; border-width: 0.1em; border-color:#E0E0E0">
+                            <a href="#HowYoullBeAssessed" aria-controls="tab5" role="tab" data-toggle="tab">How You'll Be Assessed</a>
+                        </li>
+                        <li role="presentation" class="brand-nav" style="border-top-style: solid; border-bottom-style: solid; border-width: 0.1em; border-color:#E0E0E0">
+                            <a href="#WorkExperience" aria-controls="tab6" role="tab" data-toggle="tab">Work Experience</a>
+                        </li>
+                        <li role="presentation" class="brand-nav" style="border-top-style: solid; border-bottom-style: solid; border-width: 0.1em; border-color:#E0E0E0">
+                            <a href="#FutureExperienceForGraduates" aria-controls="tab7" role="tab" data-toggle="tab">Future Experience For Graduates</a>
+                        </li>
+                        <li role="presentation" class="brand-nav" style="border-top-style: solid; border-bottom-style: solid; border-width: 0.1em; border-color:#E0E0E0">
+                            <a href="#YourCourseLeader" aria-controls="tab8" role="tab" data-toggle="tab">Your Course Leader</a>
+                        </li>
+                        <li role="presentation" class="brand-nav" style="border-top-style: solid; border-bottom-style: solid; border-width: 0.1em; border-color:#E0E0E0">
+                            <a href="#HowToApply" aria-controls="tab9" role="tab" data-toggle="tab">How To Apply</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-9" style="background-color:white; border-style: solid; border-width: 0.1em; border-color:#E0E0E0">
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="KeyFacts">
-                            <p>
-                                <h4><b>UCAS CODE</b></h4>
-                                GC45</br></br>
-                                <h4><b>INSTITUTION CODE</b></h4>
-                                P56</br></br>
-                                <h4><b>ACCREDITED BY</b></h4>
-                                Anglia Ruskin University</br></br>
-                                <h4><b>LOCATION</b></h4>
-                                University Centre Peterborough</br></br>
-                                <h4><b>DURATION AND DELIVERY</b></h4>
-                                <b>Full-time 3 years</b> (2-3 full days a week over two semesters per year)</br>
-                                <b>Part-time 4 years</b> (1-2 full days a week over two semesters per year)</br></br>
-                                <h4><b>START DATE</b></h4>
-                                January 2020, September 2020 or January 2021</br></br>
-                                <h4><b>TUITION FEES</b></h4>
-                                The tuition fees for full-time undergraduate students starting in 2020/21 will be <b>£8,000 per year</b>, which is lower compared with many other universities.</br></br>                    
-                                Fees for part-time study are pro-rata depending on the number of credits you are studying (i.e. 60 credits per year will be 50% of the tuition fee).</br></br>
-                                There may be <a href="https://ucp-live.storage.googleapis.com/upload/www.ucp.ac.uk/other/Additional%20Costs.pdf?inline=true">additional costs</a> for this course which are not covered by the tuition fee.</br></br>
-                                <h4><b>Additional Notes</b></h4>
-                                <a href="https://ucp-live.storage.googleapis.com/upload/www.ucp.ac.uk/other/Terms%20and%20Conditions%20UCP%202020-21.pdf?inline=true">Click here</a> for terms and conditions 2020/21 including our complaints policy.
-                            </p>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="AboutThisCourse">
+                        </br>
+                        <div role="tabpanel" class="tab-pane active" id="AboutThisCourse">
                             <p>
                                 What sets this course apart is its flexibility - with 16 optional modules to choose from in years 2 and 3. It is ideal if you are looking for a wide range of computing skills: from web design and development with PHP and JavaScript, computer programming in languages such as C# and Python, mobile app coding in Java, and embedded systems with C++. You will develop skills in cyber security, database management and CISCO network systems support, and have the option to study specialised subjects such as AI with Machine Learning and Big Data. We will help you develop a systematic, creative and flexible approach to problem solving that computing professionals rely on.</br></br>
                                 The course is designed with modules to promote your professional growth and personal development. You will be encouraged to acquire key practical skills to help you build a broad base and deep knowledge of computing. This will allow you to make informed choices when developing specialist in-depth knowledge in your preferred areas.</br></br>                            
@@ -480,8 +481,7 @@
                                 </ul>
             
                                 <h2><b>Types of offer</b></h2>
-                                When you make an application, you will receive one of the following offers:</br>
-                                
+                                When you make an application, you will receive one of the following offers:</br></br>                                
                                 <ul>
                                     <li><b>CONDITIONAL OFFER:</b> You will have to meet certain conditions before the start of the course (such as achieving your exams with a certain grade). We will specify these conditions when making you an offer. When you achieve these grades your place will then be confirmed.</li>
                                     <li><b>UNCONDITIONAL OFFER:</b> You already meet the entry requirements for the course (i.e. you have achieved the grades already) and we are happy to offer you a place without conditions.</li>
@@ -490,80 +490,119 @@
             
                                 <h2><b>Applicant days</b></h2>
             
-                                <p>
+                                <ul>
                                     <li>We will be holding Applicant Days for new students in <b>March and April 2020</b>.</li>
                                     <li>These are open to students who are holding a Conditional Offer or Unconditional Offer and give you the opportunity to meet other students, academic staff and participate in subject sessions.</li>
                                     <li>If you are still deciding on where to study then these days can be a great chance to see if studying with us is right for you.</li>
-                                </p>
+                                </ul>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <footer class="footer1">  
-        <div class="container">   
-            <div class="col-lg-9 col-md-9">
-                <h1 class="title-widget">Useful links</h1>
-            </div>   
-            <div class="col-lg-3 col-md-3">
-                <h1 class="title-widget">Connect With Us</h1>
-            </div>
-        </div>
-        <div class="container">              
-            <div class="row">                      
-                <div class="col-lg-3 col-md-3">
-                    <ul class="list-unstyled clear-margins">                                    
-                        <li class="widget-container widget_nav_menu">                                         
-                            <ul>
-                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>Why Choose UCP</a></li>
-                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>Courses</a></li>
-                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>Events</a></li>
-                            </ul>                        
-                        </li>                                
-                    </ul>                              
-                </div>
-                <div class="col-lg-3 col-md-3">                        
-                    <ul class="list-unstyled clear-margins">                              
-                        <li class="widget-container widget_nav_menu">                                        
-                            <ul>
-                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>Job Opportunities</a></li>
-                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>Privacy and Cookies</a></li>
-                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>Latest News</a></li>                                     
-                            </ul>                        
-                        </li>                                
-                    </ul>   
-                </div>
-                <div class="col-lg-3 col-md-3">                        
-                    <ul class="list-unstyled clear-margins">                                    
-                        <li class="widget-container widget_nav_menu">     
-                            <ul>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Academic Regulations</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i>HESA use of student data</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Website Feedback</a></li>           
-                            </ul>
-                        </li>    
+        <div class="col-sm-3">
+            <div class="card" style="width:100%;">
+                <div class="card-body">
+                    <h3 class="card-title"><b>Key Facts</b></h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h4><b>UCAS CODE</b></h4>
+                            <p>GG45</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h4><b>INSTITUTION CODE</b></h4>
+                            <p>P56</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h4><b>ACCREDITED BY</b></h4>
+                            <p>Anglia Ruskin University</p>                                
+                        </li>
+                        <li class="list-group-item">
+                            <h4><b>LOCATION</b></h4>
+                            <p>University Centre Peterborough</p>                                
+                        </li>
+                        <li class="list-group-item">
+                            <h4><b>DURATION AND DELIVERY</b></h4>
+                            <p><b>Full-time 3 years</b> (2-3 full days a week over two semesters per year)</p>
+                            <p><b>Part-time 4 years</b> (1-2 full days a week over two semesters per year)</p>                            
+                        </li>
+                        <li class="list-group-item">
+                            <h4><b>START DATE</b></h4>
+                            <p>January 2020, September 2020 or January 2021 </p>                           
+                        </li>
+                        <li class="list-group-item">
+                            <h4><b>TUITION FEES</b></h4>
+                            <p>The tuition fees for full-time undergraduate students starting in 2020/21 will be <b>£8,000 per year</b>, which is lower compared with many other universities.</p>                
+                            <p>Fees for part-time study are pro-rata depending on the number of credits you are studying (i.e. 60 credits per year will be 50% of the tuition fee).</p>
+                            <p>There may be <a href="https://ucp-live.storage.googleapis.com/upload/www.ucp.ac.uk/other/Additional%20Costs.pdf?inline=true">additional costs</a> for this course which are not covered by the tuition fee.</p>                             
+                        </li>
+                        <li class="list-group-item">
+                            <h4><b>Additional Notes</b></h4> 
+                            <p><a href="https://ucp-live.storage.googleapis.com/upload/www.ucp.ac.uk/other/Terms%20and%20Conditions%20UCP%202020-21.pdf?inline=true">Click here</a> for terms and conditions 2020/21 including our complaints policy.</p>                             
+                        </li>
+                        <li class="list-group-item text-center">    
+                            <a href="#" class="btn btn-block" style="background-color: blueviolet; color: yellow;"><h4>Register Interest</h4></a></br>
+                            <a href="https://www.ucp.ac.uk/openday/" class="btn btn-block" style="background-color: blueviolet; color: yellow;"><h4>Attend an Open Day</h4></a>                      
+                        </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </br>
+    <footer class="footer1" style="background-color: blueviolet;">
+        </br> 
+        <div class="container">              
+            <div class="row">                      
+                <div class="col-lg-9 col-md-9">
+                    <h1 class="title-widget" style="color: yellow;">Useful links</h1>
+                    <div class="col-lg-3 col-md-3">
+                        <ul class="list-unstyled clear-margins">                                    
+                            <li class="widget-container widget_nav_menu">                                         
+                                <ul>
+                                    <li><a href="https://www.ucp.ac.uk/why-choose-ucp/" style="color: white;">Why Choose UCP</a></li>
+                                    <li><a href="https://www.ucp.ac.uk/a-z-courses/" style="color: white;">Courses</a></li>
+                                    <li><a href="https://www.ucp.ac.uk/events/" style="color: white;">Events</a></li>
+                                </ul>                        
+                            </li>                                
+                        </ul>                              
+                    </div>
+                    <div class="col-lg-3 col-md-3">                        
+                        <ul class="list-unstyled clear-margins">                              
+                            <li class="widget-container widget_nav_menu">                                        
+                                <ul>
+                                    <li><a href="https://www.ucp.ac.uk/jobs/" style="color: white;">Job Opportunities</a></li>
+                                    <li><a href="https://www.ucp.ac.uk/privacy-and-cookies/" style="color: white;">Privacy and Cookies</a></li>
+                                    <li><a href="https://www.ucp.ac.uk/news/" style="color: white;">Latest News</a></li>                                     
+                                </ul>                        
+                            </li>                                
+                        </ul>   
+                    </div>
+                    <div class="col-lg-3 col-md-3">                        
+                        <ul class="list-unstyled clear-margins">                                    
+                            <li class="widget-container widget_nav_menu">     
+                                <ul>
+                                    <li><a href="https://web.anglia.ac.uk/anet/academic/public/academic_regs.pdf" style="color: white;">Academic Regulations</a></li>
+                                    <li><a href="https://www.ucp.ac.uk/hesa-student-collection-notice/" style="color: white;">HESA use of student data</a></li>
+                                    <li><a href="https://www.ucp.ac.uk/website-feedback/" style="color: white;">Website Feedback</a></li>           
+                                </ul>
+                            </li>    
+                        </ul>
+                    </div>
+                </div>
                 <div class="col-lg-3 col-md-3">
+                    <h1 class="title-widget" style="color: yellow;">Connect With Us</h1>
                     <ul class="list-unstyled clear-margins">
-                        <li class="widget-container widget_recent_news">
-                            <div class="footerp">
-                                <h2 class="title-median">Webenlance Pvt. Ltd.</h2>
-                                <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
-                                <p><b>Helpline Numbers </b>            
-                                <b style="color:#ffc106;">(8AM to 10PM):</b>  +91-8130890090, +91-8130190010  </p>
-                                <p><b>Corp Office / Postal Address</b></p>
-                                <p><b>Phone Numbers : </b>7042827160, </p>
-                                <p> 011-27568832, 9868387223</p>
-                            </div>                                            
+                        <li class="widget-container widget_recent_news">                                           
                             <div class="social-icons">                                            
-                                <ul class="nomargin">                                                
-                                    <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
-                                    <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
-                                    <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
-                                    <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                <ul class="nomargin" style="list-style-type:none;">    
+                                    <a href="https://twitter.com/ucpeterborough"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>                                            
+                                    <a href="https://www.facebook.com/ucpeterborough"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCMGvV-0uiAtsnXLWOu7IfOA"><i class="fa fa-youtube-square fa-3x social-yt" id="social"></i></a>
+                                    <a href="https://www.linkedin.com/school/university-centre-peterborough/"><i class="fa fa-linkedin-square fa-3x social-li" id="social"></i></a>
+                                    <a href="mailto:https://www.facebook.com/ucpeterborough"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
                                 </ul>
                             </div>
                         </li>
@@ -572,19 +611,14 @@
             </div>
         </div>
     </footer>            
-    <div class="footer-bottom">            
+    <div class="footer-bottom" style="background-color: blueviolet;">            
         <div class="container">            
             <div class="row">            
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">            
-                    <div class="copyright">            
-                        © 2015, Webenlance, All rights reserved            
+                    <div class="copyright" style="color: white;">            
+                        Copyright © University Centre Peterborough. All rights reserved. Site by i3MEDIA          
                     </div>            
-                </div>            
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">            
-                    <div class="design">            
-                        <a href="#">Franchisee </a> |  <a target="_blank" href="http://www.webenlance.com">Web Design & Development by Webenlance</a>            
-                    </div>            
-                </div>            
+                </div>          
             </div>            
         </div>
     </div>            
