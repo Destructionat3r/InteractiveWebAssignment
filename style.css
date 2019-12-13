@@ -1,0 +1,15 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-default {
+    border-color: blueviolet;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: black !important;
+}
+
+.nav.navbar-nav li a{
+    color: black !important;
+}
