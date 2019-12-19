@@ -113,6 +113,10 @@
     -o-transition-duration: 0.5s;
 }
 
+.social-in:hover {
+    color: #3F729B;
+}
+
 .social-fb:hover {
     color: #3B5998;
 }
